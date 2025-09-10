@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://cuiovgdevlwji"]
+
+[ext_resource type="PackedScene" uid="uid://cul6i11eohe7r" path="res://art/rocks.glb" id="1_e2ywa"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_2eyqj"]
+radius = 2.32642
+
+[node name="Stone" type="CharacterBody3D"]
+
+[node name="Pivot" type="Node3D" parent="."]
+
+[node name="Character" parent="." instance=ExtResource("1_e2ywa")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -0.270996, -1.96838, 1.37317)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(0.748001, 0.0171732, 0.663476, -0.0128475, 0.999853, -0.0113957, -0.663574, 0, 0.748111, 2.91101, -0.228821, 9.3999)
+shape = SubResource("SphereShape3D_2eyqj")
