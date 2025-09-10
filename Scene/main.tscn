@@ -134,7 +134,7 @@ offset_right = 113.0
 offset_bottom = 48.0
 theme_override_fonts/font = ExtResource("6_1xcnr")
 theme_override_font_sizes/font_size = 15
-text = "กรกนก พฤทธิพันธุ์
+text = "Konkanok Pruttipan
 653380187-0"
 
 [node name="ScoreLabel" type="Label" parent="CanvasLayer"]
